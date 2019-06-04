@@ -2,7 +2,7 @@
 
 This is a Python script that gets the cover image from ebooks in the `.mobi` format.
 
-![An arrow from a blank document to a yellowing book cover](README_illustration.jpg)
+![An arrow from a blank document to a yellowing book cover](script_illustration.jpg)
 
 Book cover: *Captain Billy's Whiz Bang*, from [Project Gutenberg](https://www.gutenberg.org/ebooks/59664).
 
