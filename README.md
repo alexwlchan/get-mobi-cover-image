@@ -21,6 +21,9 @@ What I wanted was a single-purpose tool that takes a MOBI file, and extracts the
 
 I couldn't find an existing tool to do that, but I did find some code that does the hard work of parsing a MOBI file -- this script ties it all together into that single-purpose tool.
 
+It's a standalone tool because all the MOBI parsing code I found is GPL-licensed.
+By making it a separate script I can shell out to, the GPL license is contained to the thin wrapper script.
+
 
 
 ## Installation
