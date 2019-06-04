@@ -16,9 +16,10 @@ To help me spot files quickly (and because it looks nice!), I create thumbnails 
 I've got a handful of MOBI files for my Kindle, but I didn't have a way to get a cover image from MOBI files.
 
 The app doesn't care about the ebook contents, just the cover image.
-What I wanted was a single-purpose tool that takes a MOBI file, and spits out a cover image.
+I didn't need a full-blown MOBI parser, as long as I can get a thumbnail.
+What I wanted was a single-purpose tool that takes a MOBI file, and extracts the cover image.
 
-I couldn't find exactly that, but I did find some code that does the hard work of parsing a MOBI file -- this script ties it all together into that single-purpose tool.
+I couldn't find an existing tool to do that, but I did find some code that does the hard work of parsing a MOBI file -- this script ties it all together into that single-purpose tool.
 
 
 
