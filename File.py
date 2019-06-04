@@ -93,7 +93,5 @@ class MOBIFile:
                 imgnames.append(i)
             if len(imgnames)-1 == coverid:
                 cover = Image.open(BytesIO(data))
-                cover.thumbnail((217, 330), Image.ANTIALIAS)
-                cover = cover.convert('L')
                 return cover
         raise OSError
