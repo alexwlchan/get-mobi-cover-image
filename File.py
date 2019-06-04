@@ -26,8 +26,6 @@ from io import BytesIO
 from tempfile import gettempdir
 from uuid import uuid4
 
-from PIL import Image
-
 import DualMetaFix
 import KindleUnpack
 
@@ -92,6 +90,5 @@ class MOBIFile:
             else:
                 imgnames.append(i)
             if len(imgnames)-1 == coverid:
-                cover = Image.open(BytesIO(data))
-                return cover
+                return data
         raise OSError
