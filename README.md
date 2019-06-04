@@ -46,6 +46,8 @@ $ python get_mobi_cover.py pg59664-images.mobi
 cover-41bFd.jpeg
 ```
 
+The image is saved directly as it's stored in the MOBI file -- same format, same bytes, no compression or interference.
+
 
 
 ## Technical details
